@@ -1,6 +1,14 @@
 package oops;
 
 class BankAccount{
+    public double getBalance() {
+        return balance;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
     private double balance = 10000;
     private String username = "tadao";
     private String password = "password";

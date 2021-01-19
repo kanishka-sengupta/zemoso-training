@@ -1,5 +1,7 @@
 package com.company;
 
+import javax.swing.*;
+
 class Fan{
     private  boolean isOn;// Instance Variable
     public static String companyName;// Static Variable (One Copy available to all instances)
@@ -15,6 +17,7 @@ class Fan{
         System.out.println("Fan On!");
     }
     void turnOff(){
+
         isOn=false;
         System.out.println("Fan Off");
     }
