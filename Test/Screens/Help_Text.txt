@@ -1,0 +1,8 @@
+            Welcome to ToDoTerminal Help
+
+Please input the index of the option and hit enter.
+Any input in InfoScreens are back command and any input that is not the index
+of the options is also a back command.
+Menu Navigation is in integer input.
+Datas are stored in .csv file, todo_save.csv.
+Please handle with care everything is held together with tapes.

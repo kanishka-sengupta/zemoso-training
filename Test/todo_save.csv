@@ -1,0 +1,8 @@
+
+Single Responsiblity,Show Utility Class how it violates Single Responsibility separate code into differnt Utility classes,10/02/2021 18:00,1
+Open And Close Principle,Show Open And Closed Principle example using screenabtract class and violation using single Screen,10/02/2021 18:00,1
+Liskov Substituion,Null,10/02/2021 18:00,0
+Interface Segregation,Show example using backabble screeens,10/02/2021 18:00,1
+Dependency Principle,ScreenData and ScreenBase abstractions are for my lower and higher level modules,10/02/2021 18:00,1
+Finish Map,Textures Left of 5 rooms Choose a suitable tex for common areas and place some more models,11/02/2021 03:00,0
+Finish Coursera_2 Week_2,Null,10/02/2021 18:00,0
