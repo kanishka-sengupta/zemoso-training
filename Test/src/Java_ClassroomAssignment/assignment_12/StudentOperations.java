@@ -1,5 +1,6 @@
 package Java_ClassroomAssignment.assignment_12;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.OptionalDouble;
@@ -19,6 +20,9 @@ public class StudentOperations {
     }
     public double CALCULATE_AVERAGE_OF(List<Student> allStudents){
         return allStudents.stream().mapToDouble(Student::getAge).average().getAsDouble();
+    }
+    public double CALCULATE_AVERAGE_PER_OF(List<Student> allStudents){
+        return allStudents.stream().mapToDouble(Student::getPerTillDate).average().getAsDouble();
     }
 
 }

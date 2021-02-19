@@ -8,6 +8,15 @@ public class Main {
         StudentHolder studentHolder=new StudentHolder();
         InsertTestData.insertData(studentHolder);
         studentHolder.printAllDepartments();
-        studentHolder.calculateAverageAgeOfGender();
+        System.out.println();
+        studentHolder.enrolledAfter(2018);
+        System.out.println();
+        studentHolder.getStudentsOf("Computer Science");
+        System.out.println();
+        studentHolder.getStudentsOf("Computer Science","Male");
+        studentHolder.getGenderSizeOf("Computer Science");
+        System.out.println();
+        studentHolder.getGenderSizeOf();
+        studentHolder.calculateAveragePercentage();
     }
 }
